@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Inscription</title>
+{% endblock %}
+
+{% block content %}
+<p>Formulaire</p>
+<a href="{% url 'home' %}" aria-label="dashboard">
+    <span class="-mr-1 font-medium">Accueil</span>
+</a>
+<a href="{% url 'vitrine:about' %}" aria-label="dashboard">
+    <span class="-mr-1 font-medium">A propos</span>
+</a>
+
+{% endblock content %}

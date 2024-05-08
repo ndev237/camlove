@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+<title>A propos</title>
+{% endblock %}
+{% block content %}
+<p>a propos</p>
+<a href="{% url 'home' %}" aria-label="dashboard">
+    <span class="-mr-1 font-medium">Accueil</span>
+</a>
+<a href="{% url 'vitrine:contact' %}" aria-label="dashboard">
+    <span class="-mr-1 font-medium">Forms</span>
+</a>
+{% endblock content %}

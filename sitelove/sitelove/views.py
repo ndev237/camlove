@@ -1,21 +1,21 @@
 from django.shortcuts import render
 
 
-def about(request):
+def home(request):
     """
 
     :param request:
     :return:
     """
-    return render(request, 'vitrine/about.html')
+    return render(request, 'home.html')
 
 
-def contact(request):
+def nav(request):
     """
 
     :param request:
     :return:
     """
-    return render(request, 'vitrine/contact.html')
+    return render(request, 'nav.html')
 
 
